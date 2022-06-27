@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*work1-1*/
+
+.box_blue{
+
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.box_blue div{
+
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+
+}
+
+/*work1-2*/
+
+.box_red{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.box_red div{
+
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+}
